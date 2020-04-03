@@ -1,0 +1,35 @@
+{
+  "name": "burgertime",
+  "version": "1.0.0",
+  "description": "make a burger, devour burger, repeat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://"
+  },
+  "keywords": [
+    "burger",
+    "time",
+    "burgertime",
+    "food",
+    "eat"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://"
+  },
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.0.8",
+    "mysql": "^2.18.1",
+    "sequelize": "^3.30.4"
+  }
+}
