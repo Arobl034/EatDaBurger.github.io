@@ -1,50 +1,45 @@
-// Dependencies
-// =============================================================
+const db = require("../models");
 
-// Requiring our models
-var db = require("../models");
+module.exports = function (app) {
 
-// Routes
-// =============================================================
-module.exports = function(app) {
+  app.get("/", function (req, res) {
 
-  // GET route for getting all of the todos
-  app.get("/api/burgers", function(req, res) {
-    db.Burgers.findAll({}).then(function(dbBurgers) {
-      
-      res.json(dbBurgers);
+    db.Burger.findAll({}).then(function (data) {
+      //console.log(data);
+      if (data.length != 0) {
+        res.render("index", { burger: data });
+      } else {
+        res.render("index");
+      }
     });
   });
 
-  // POST route for new burger
-  app.post("/api/burgers", function(req, res) {
-  
-    db.Burgers.create({
-      burger_name: req.body.burger_name,
-      devoured: req.body.devoured,
-      date: req.body.date
-    }).then(function(dbBurgers) {
-     
-      res.json(dbBurgers);
+  //POST route for saving a new burger
+  app.post("/api/burgers", function (req, res) {
+    console.log(req.body);
+    db.Burger.create({
+      name: req.body.name
+    }).then(function (data) {
+      res.json(data);
     });
   });
 
-  
-  // PUT route for updating burgers.
-  app.put("/api/burgers", function(req, res) {
-    
-    db.Burgers.update({
-      burger_name: req.body.burger_name,
-      devoured: req.body.devoured,
-      date: req.body.date
+  //PUT route for updating a burger
+  app.put("/api/burgers", function (req, res) {
+    console.log(req.body.id);
+    db.Burger.update({
+      devoured: true
     }, {
       where: {
         id: req.body.id
       }
-    }).then(function(dbBurgers) {
-      res.json(dbBurgers);
+    }).then(function (data) {
+      res.json(data);
     });
   });
 
 };
+
+
+
 
