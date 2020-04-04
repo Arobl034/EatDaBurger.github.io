@@ -12,3 +12,6 @@ The user may enter any burger name to add it to the menu. The initial burger ent
 
 
 App Image:
+
+<img width="1226" alt="Screen Shot 2020-04-04 at 12 46 53 AM" src="https://user-images.githubusercontent.com/58242373/78419053-b31f9580-760f-11ea-9d67-ba296f0df31f.png">
+
