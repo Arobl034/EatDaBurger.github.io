@@ -15,3 +15,8 @@ App Image:
 
 <img width="1226" alt="Screen Shot 2020-04-04 at 12 46 53 AM" src="https://user-images.githubusercontent.com/58242373/78419053-b31f9580-760f-11ea-9d67-ba296f0df31f.png">
 
+
+
+Video Link:
+
+https://drive.google.com/file/d/1IaiRJ9Hbm1nLB5nNkkw0G8hIXcpUk3M2/view?usp=sharing
