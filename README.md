@@ -19,4 +19,4 @@ App Image:
 
 Video Link:
 
-https://drive.google.com/file/d/1IaiRJ9Hbm1nLB5nNkkw0G8hIXcpUk3M2/view?usp=sharing
+<iframe src="https://drive.google.com/file/d/1IaiRJ9Hbm1nLB5nNkkw0G8hIXcpUk3M2/preview" width="640" height="480"></iframe>
