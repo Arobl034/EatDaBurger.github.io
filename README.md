@@ -1,22 +1,26 @@
-# EatDaBurger.github.io
+# Logger App :hamburger:
 
-Eat Da Burger!
+This is a simple burger logger application that allows users to submit burgers they want to try, and mark them as eaten.
 
-A Burger Eatin' Application With Node.js/Express/MySQL/Handlebars
+## Purpose
 
-Description
+This project was created to practice skills learned in the UM Full Stack Developer Bootcamp 2019-2020. The goal was to build a full-stack application that follows the MVC pattern.
 
-This application demonstrates a simple full stack application with a front end implemented with HTML/CSS and the backend implemented with Node.js and Express. HTML templating is done with the help of Handlebars.
+## Technologies
 
-The user may enter any burger name to add it to the menu. The initial burger entry is submitted then added on the Burgers to Eat menu and placed on the left side of the screen. The user may then eat any burger by clicking on it, which moves it into the Devoured Burgers and updates its status accordingly.
+The back-end was built with Node.js and Express. For the data: Sequelize, mySQL2, MAMP and MySQLWorkbench were used. The front-end was built with Handlebars, jQuery and Bootstrap 4.
 
+## Functionality
 
-App Image:
+1. When the page loads, a query is sent to the database to check if there are any burgers stored. If there are, the corresponding lists are populated with the information. The left panel holds the uneaten burgers, and the right panel holds the eaten burgers.
+2. At the top, users can type a burger they would like to try in the input field. When "submit" is pressed, the burger is stored in the database and it is added to the left side panel ("Burgers to Eat").
+3. Each burger entry in the "Burgers to Eat" panel will have an "Eat me!" button. When this button is pressed, the burger data will be updated in the database to reflect it has been eaten, and the burger information will be moved to the right side panel ("Devoured Burgers").
+
+## User Interface
 
 <img width="1226" alt="Screen Shot 2020-04-04 at 12 46 53 AM" src="https://user-images.githubusercontent.com/58242373/78419053-b31f9580-760f-11ea-9d67-ba296f0df31f.png">
 
-
-
+## Heroku Deploy:
 GIF Animation:
 <div style="width:360px;max-width:100%;"><div style="height:0;padding-bottom:56.11%;position:relative;"><iframe width="360" height="202" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/3vjh53"></iframe></div><p><a href="https://imgflip.com/gif/3vjh53">via Imgflip</a></p></div>
 
