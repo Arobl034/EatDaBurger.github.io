@@ -20,9 +20,8 @@ The back-end was built with Node.js and Express. For the data: Sequelize, mySQL2
 
 <img width="1226" alt="Screen Shot 2020-04-04 at 12 46 53 AM" src="https://user-images.githubusercontent.com/58242373/78419053-b31f9580-760f-11ea-9d67-ba296f0df31f.png">
 
-## Heroku Deploy:
-GIF Animation:
-<div style="width:360px;max-width:100%;"><div style="height:0;padding-bottom:56.11%;position:relative;"><iframe width="360" height="202" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/3vjh53"></iframe></div><p><a href="https://imgflip.com/gif/3vjh53">via Imgflip</a></p></div>
+## Published:
+<https://arobl034.github.io/EatDaBurger.github.io/>
 
 
 
